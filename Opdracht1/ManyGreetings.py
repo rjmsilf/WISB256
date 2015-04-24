@@ -1,3 +1,3 @@
 name=input('Name? ')
-number = input('How many greetings? ')
-print(number  + ' x Hello, %s!'%(name))
+times=input('How many greetings? ')
+print(times+' x Hello, %s!' %(name))
