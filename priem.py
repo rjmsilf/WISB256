@@ -1,10 +1,8 @@
 def pr(getal):
-    n=2
-    while n<getal:
-        if getal%n == 0:
+    for i in range(2,getal):
+        if getal%i == 0:
             return False
-        n=n+1
-    return True
+    return getal
 
-pr(1000003)
-print(pr(1000003))
+
+print(pr(191))
