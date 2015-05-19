@@ -1,0 +1,6 @@
+input()
+print(ord('+'))
+print(ord('-'))
+print(ord('*'))
+print(ord('/'))
+print(chr(47))
