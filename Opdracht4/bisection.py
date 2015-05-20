@@ -16,11 +16,10 @@ def findRoot(f,a,b,epsilon):
 
 def findAllRoots(f,c,d,epsilon):
     rootslist2=[]
-    for i in range(c,d):
-        roots=findRoot(f,i,i+0.5,epsilon)
-        roots2=findRoot(f,i+0.5,i+1,epsilon)
+    n=100000
+    for i in range(0,n):
+        roots=findRoot(f,c+i*(d-c)/n,c+(i+1)*(d-c)/n,epsilon)
         rootslist2.append(roots)
-        rootslist2.append(roots2)
     rootslist3=[]
     for j in rootslist2:
         if j != 'fietsbandventieldopje':
