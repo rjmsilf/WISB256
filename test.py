@@ -13,3 +13,5 @@ z=Variable('z')
 
 iets=(-a)**c
 print(iets.simplify())
+
+#BLAAAAAAAAAAAAAAAH
